@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { PortalHost } from '@rn-primitives/portal';
 import '../../global.css';
 
-function RootLayoutNav() {
+export function RootLayoutNav() {
   return (
     <SafeAreaView>
       <View>
