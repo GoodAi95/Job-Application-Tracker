@@ -1,10 +1,21 @@
 
 import { ThemedView } from '@/components/themed-view';
+import { Button } from 'expo-router/react-navigation';
+import { Text } from '@/components/ui/text';
 
 export default function HomeScreen() {
   return (
     <ThemedView>
-      Hello, welcome to the Job Application Tracker app! This is a simple app that helps you keep track of your job applications and their statuses. You can add new applications, update their statuses, and view them in a list. The app also provides a dashboard to visualize your application progress.
+      <Text>
+        YOOOOOOOOOOOOOOOOOO!
+      </Text>
+      <Button onPress={() => console.log('Log in pressed!')} href="/explore">
+        Log in
+      </Button>
+
+      <Button onPress={() => console.log('Sign up pressed!')} href="/explore">
+        Sign up
+      </Button>
     </ThemedView>
   );
 }
