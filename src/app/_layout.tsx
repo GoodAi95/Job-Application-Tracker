@@ -18,7 +18,7 @@ function RootLayoutNav() {
 export default function TabLayout() {
   const colorScheme = useColorScheme();
   return (
-    <ThemeProvider value={colorScheme === 'light' ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <RootLayoutNav />
       <PortalHost />
     </ThemeProvider>
